@@ -1,0 +1,27 @@
+if game.PlaceId == 4483381587 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "KaiHub", HidePremium = false, IntroText = "KaiHub", SaveConfig = true, ConfigFolder = "OrionTest"})
+
+
+
+-- Tabs
+local MiscTab = Window:MakeTab({
+	Name = "Miscellaneous",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+-- Buttons
+MiscTab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		print("My Dick Possible inside 'Players.username.your-mom")
+  	end    
+})
+
+
+
+end
+OrionLib:Init()
